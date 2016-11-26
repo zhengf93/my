@@ -188,15 +188,16 @@ var _hmt = _hmt || [];
 
   <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><h1 class="site-meta">
-          <span class="logo-line-before"><i></i></span>
+          <span class="logo-line-before">
+          <i style="transform: translateX(100%);"></i></span>
           <!-- <a href="" class="brand" rel="start"> -->
-		  <a href="#" class="brand" rel="start">
+		  <a href="#" class="brand" rel="start" style="opacity: 1;">
               <span class="logo">
                 <i class="icon-next-logo"></i>
             </span>
-            <span class="site-title">郑飞个人博客</span>
+            <span class="site-title" style="opacity: 1; top: 0px;">郑飞个人博客</span>
         </a>
-        <span class="logo-line-after"><i></i></span>
+        <span class="logo-line-after"><i style="transform: translateX(-100%);"></i></span>
     </h1>
 
     <div class="site-nav-toggle">
@@ -208,18 +209,18 @@ var _hmt = _hmt || [];
 </div>
 
 <nav class="site-nav">    <ul id="menu" class="menu menu-left">
-        <li class="menu-item menu-item-home">
+        <li class="menu-item menu-item-home" style="opacity: 1; transform: translateY(0px);">
           <!-- <a href="" rel="section"> -->
 		  <a href="#" rel="section">
             <i class="menu-item-icon"></i> <br />
             首页
         </a>
     </li>
-            <li class="menu-item menu-item-home">
-        <a href="#" rel="section">留言</a>
+            <li class="menu-item menu-item-home" style="opacity: 1; transform: translateY(0px);">
+        <a href="#" rel="section" >留言</a>
     </li>
    
-    <li class="menu-item menu-item-home">
+    <li class="menu-item menu-item-home" style="opacity: 1; transform: translateY(0px);">
         <a href="#" rel="section">关于</a>
     </li>
 </ul>
@@ -241,9 +242,8 @@ var _hmt = _hmt || [];
     <div id="content" class="content">
  <div id="posts" class="posts-expand">
  
-          <p><div id="player1" class="aplayer">
 		 <div class="container">
-        <div id="player1" class="aplayer"></div>
+          <p><div id="player1" class="aplayer">
     </div>
         </div>
 		 <script src="APlayer.min.js"></script>
@@ -251,9 +251,10 @@ var _hmt = _hmt || [];
 </p>
 <h2>个人状态</h2>
 <p>性格谦和，比较直爽，喜欢交朋友也很容易与人相处。<br />
+我的座右铭是：只要肯奋斗，没有什么是绝对不可能的。<br/>
 有良好的沟通合作态度,对工作有上进心，有很强的适应能力并且具备一定的抗压能力。<br/>
 能够快速的适应各种工作环境，具有良好的分析能力，具有良好的学习能力。<br/>
-工作4年后换个环境换个行业重头再来。</p>
+换个环境换个行业重头再来。</p>
 <hr />
 <h2>个人爱好及特长</h2>
 <p>迫于各方压力，一直强压着一颗爱浪的心。放弃许多爱好活动，沉迷代码之中。<br />
@@ -262,8 +263,8 @@ var _hmt = _hmt || [];
 熟悉Servlet/Jsp java web 开发技术并运用到项目中;<br />
 熟悉Struts、Spring、Hibernate等框架的使用;<br />
 熟练运用MySql、SQL Server数据库; <br />
-熟悉HTML，DIV+CSS ，JavaScript 等静态网页开发;对jQuery 和Ajax 等前端技术也有一定的了解；<br />
-喜欢听音乐看电影<br />
+熟悉HTML，DIV+CSS ，JavaScript 等静态网页开发;对jQuery和Ajax 等前端技术也有了解；<br />
+喜欢听音乐看电影<br/>
 慢慢茁壮成长中。</p>
 <hr />
 <h2>博客说明</h2>
@@ -272,7 +273,6 @@ var _hmt = _hmt || [];
 <hr />
 <h2>联系本人</h2>
 <p>QQ： 490563168<br />
-
 Email：490563168@qq.com</p>
 
 
@@ -316,11 +316,11 @@ Email：490563168@qq.com</p>
               <span class="site-state-item-name">关于我</span>
           </a>
       </div>
-      <h2>个人信息</h2>
+      <h1 style="color:#999">个人信息</h1>
 <p>性别：男</p>
 <p>学历：大专</p>
 <p>年龄：24</p>	
-
+<p>在苏州高博（java方向）专业培训4个月</p>
 </nav>
          
 <div class="links-of-author motion-element">
